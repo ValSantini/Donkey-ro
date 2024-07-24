@@ -1,0 +1,113 @@
+body {
+    background-image: url('./il_fullxfull.4383474441_ifgz.webp');
+  }
+  
+  h1 {
+    background: linear-gradient(145deg, #276649, #122d20);
+    color: white;
+    border: 2px solid #6e6e6e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 4em;
+    margin: 20px;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 7px rgba(41, 204, 26, 1);
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  #text {
+    background-color: #0d2c16;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 0px 0px 12px 12px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  #controls,
+  #stats {
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    color: #1b452f;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 26px;
+    background-color: rgba(256, 256, 256, 0.2);
+    box-sizing: border-box;
+  }
+  
+  #stats {
+    border-radius: 12px 12px 0px 0px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+  .stat {
+    padding-right: 10px;
+    color: white;
+  }
+  
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  
+  .image1 {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 7px rgba(41, 204, 26, 1);
+  }
+  
